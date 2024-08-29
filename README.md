@@ -45,11 +45,11 @@ This project is a Spring Boot application that provides RESTful APIs for managin
 
 - Category API
   
-  1. Get All Categories (with Pagination):
+1. Get All Categories (with Pagination):
     - Endpoint: GET /api/categories?page=3
     - Description: Retrieves all categories with pagination support.
 
-  2. Create a New Category:
+2. Create a New Category:
     - Endpoint: POST /api/categories
     - Description: Creates a new category.
     - Body:
@@ -59,11 +59,11 @@ This project is a Spring Boot application that provides RESTful APIs for managin
         "name": "Electronics"
       }    
 
-  3. Get Category by ID:
+3. Get Category by ID:
     - Endpoint: GET /api/categories/{id}
     - Description: Retrieves category details by ID.
 
-  4. Update Category by ID:
+4. Update Category by ID:
     - Endpoint: PUT /api/categories/{id}
     - Description: Updates category details by ID.
     - Body:
@@ -73,17 +73,17 @@ This project is a Spring Boot application that provides RESTful APIs for managin
         "name": "Updated Category Name"
       }
 
-  5. Delete Category by ID:
+5. Delete Category by ID:
     - Endpoint: DELETE /api/categories/{id}
     - Description: Deletes the category with the specified ID.
 
 - Product API
   
-  1. Get All Products (with Pagination):
+1. Get All Products (with Pagination):
     - Endpoint: GET /api/products?page=2
     - Description: Retrieves all products with pagination support.
 
-  2. Create a New Product:
+2. Create a New Product:
     - Endpoint: POST /api/products
     - Description: Creates a new product under a specific category.
     - Body:
@@ -95,11 +95,11 @@ This project is a Spring Boot application that provides RESTful APIs for managin
         "categoryId": 1
       }
 
-  3. Get Product by ID:
+3. Get Product by ID:
     - Endpoint: GET /api/products/{id}
     - Description: Retrieves product details by ID, including category information.
 
-  4. Update Product by ID:
+4. Update Product by ID:
     - Endpoint: PUT /api/products/{id}
     - Description: Updates product details by ID.
     - Body:
@@ -111,7 +111,7 @@ This project is a Spring Boot application that provides RESTful APIs for managin
         "categoryId": 1
       }
 
-  5. Delete Product by ID:
+5. Delete Product by ID:
     - Endpoint: DELETE /api/products/{id}
     - Description: Deletes the product with the specified ID.
 
